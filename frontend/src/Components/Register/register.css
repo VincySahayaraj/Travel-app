@@ -1,0 +1,162 @@
+.register-section {
+
+
+    height: 100vh;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.register-user {
+
+    height: 100vh;
+    padding-top: 200px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #000;
+}
+
+.car-img {
+    height: 100vh;
+    width: 500px;
+}
+
+
+.logo-intro {
+    background: #1aebb6;
+    height: 100vh;
+    overflow: hidden;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-section {
+    background-color: #FFF;
+
+}
+
+.inner-section-first {
+
+    /* height:100vh;
+    margin:300px 0px 0px  30px; */
+    /* border:2px solid #000; */
+    box-shadow: 0 10px 30px #000;
+    transform: translateY(-5px);
+    height: 530px;
+    width: 400px;
+    align-items: center;
+    display: block;
+    justify-content: center;
+}
+
+.self-center {
+
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.input-box {
+    width: 400px;
+    border: 2px solid #000;
+    border-radius: 30px;
+}
+
+.form-submit {
+
+    margin-top: 20px;
+}
+
+.register-btn {
+
+    background: #1aebb6;
+    border: 1px solid #1aebb6;
+    width: 160px;
+    border-radius: 30px;
+    border-radius: 30px;
+    box-shadow: 0 6px 14px #6a5a5a;
+}
+
+.register-btn:hover {
+    box-shadow: 0 10px 30px #1aebb6;
+}
+
+.sign-up {
+
+    text-decoration: underline;
+    font-size: 17px !important;
+    font-weight: 500;
+
+}
+
+.sign-in {
+
+    text-decoration: underline;
+    font-size: 16px !important;
+    font-weight: 500;
+
+}
+
+.dont-have-acc {
+    margin-top: 30px;
+}
+
+.forgot-password {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.car-icon-home {
+    width: 125px;
+    height: 100px;
+}
+
+.select-role {
+
+    width: 400px;
+    height: 40px;
+
+}
+
+.car-icon {
+    position: absolute;
+    left: 33%;
+    top: 33%;
+}
+
+.taxi-text {
+    position: absolute;
+    top: 50%;
+    left: 37%;
+}
+
+.taxi-taxi {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+@media (max-width:800px) {
+
+    .input-box {
+        width: 200px;
+
+    }
+
+    .select-role {
+
+        width: 200px;
+
+    }
+
+}

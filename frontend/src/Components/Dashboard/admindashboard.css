@@ -1,0 +1,143 @@
+
+ /*.request-cabdriver{
+    margin-top: 100px; 
+}*/
+
+.mt-50{
+    margin-top: 50px;
+}
+
+/* .request-cabdriver tbody tr:nth-child(odd){
+ 
+    background: #1aebb6 !important;
+
+}
+
+.request-cabdriver tr:nth-child(even){
+ 
+    background: #89edd4 !important;
+
+} */
+
+thead tr{
+
+    background: #1aebb6 !important;
+
+}
+
+.table-heading-admin{
+
+    box-shadow: 2px 0px 17px 7px #3de6ce99 !important;
+
+}
+   
+
+.action-btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid #19dfad;
+    margin: 20px;
+}
+
+.action-btn-flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.color-green{
+    color: #19dfad;
+}
+
+.color-red{
+    color: #fc0800;
+}
+
+.tabs-nav-admin{
+
+    background:#19dfad;
+
+}
+
+.request-from-users{
+    margin-left: 174px;
+
+}
+
+.nav-pills .nav-link.active{
+    color:#000 !important;
+    background-color: #6fefca !important;
+}
+
+.tabs-nav-admin .nav{
+
+    --bs-nav-link-color: unset !important;
+
+}
+.fa-solid{
+
+    font-size:28px;
+}
+.icon-nav{
+    padding: 30px;
+}
+
+
+.ride-accepted{
+    border-radius: 25px;
+    padding: 12px 12px;
+    background:#ecce13;;
+    color:#000;
+}
+
+.ride-requested{
+
+    border-radius: 25px;
+    padding: 12px 12px;
+    background:#d7d4c7;
+    color:#000;
+
+}
+
+.ride-rejected{
+
+    border-radius: 25px;
+    padding: 12px 12px;
+    background: #da14db;
+    color:#000;
+
+}
+.ride-completed{
+
+    border-radius: 25px;
+    padding: 12px 12px;
+    background:#44ce1b;
+    color:#000;
+
+}
+.ride-cancelled{
+
+    border-radius: 25px;
+    padding: 12px 12px;
+    background: #f40411;
+    color:#000; 
+
+}
+
+.history-table{
+    margin-left:50px;
+}
+
+.request-cabdriver .table>:not(caption)>*>*{
+    padding: 1.5rem 0.5rem !important;
+}
+@media (max-width:800px){
+.requestfrom-users{
+    margin:10px;
+}
+.request-cabdriver{
+    font-size:10px;
+}
+}
